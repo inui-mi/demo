@@ -32,9 +32,9 @@ public class LoginController {
 
     @RequestMapping("/mypage")
     public String myPage(){
-        if (session.getAttribute("mail") == null) {
-            return "login-form";
-        }
+        // if (session.getAttribute("mail") == null) {
+        //     return "login-form";
+        // }
         return "login-mypage";
     }
 }
